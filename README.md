@@ -4,7 +4,7 @@ This script downloads UniProtKB reference proteomes in FASTA format for a given 
 
 ## Usage
 
-`python proteome_downloader.py proteome_id1 proteome_id2 ...`
+`python download_reference_proteomes.py proteome_id1 proteome_id2 ...`
 
 - `proteome_id`: The UniProtKB proteome identifier(s) to download.
 
@@ -29,7 +29,7 @@ The script downloads UniProtKB reference proteomes in batches using the UniProt 
 
 Download the proteomes for `UP000005640` (_Homo sapiens_) and `UP000000625` (_Escherichia coli (strain K12)_):
 
-`python proteome_downloader.py UP000005640 UP000002311`
+`python download_reference_proteomes.py UP000005640 UP000002311`
 
 
 This will create two files `UP000005640.fasta` and `UP000002311.fasta` in the working directory.
